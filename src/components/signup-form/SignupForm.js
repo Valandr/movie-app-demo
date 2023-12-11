@@ -3,7 +3,7 @@
 import { signIn, useSession } from "next-auth/react";
 import styles from "./SignupForm.module.scss";
 import { useEffect } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const SignupForm = () => {
   const { status } = useSession();
