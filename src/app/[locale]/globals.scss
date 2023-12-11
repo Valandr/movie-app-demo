@@ -1,0 +1,56 @@
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+*/
+@import "variables";
+
+body {
+  margin: 0;
+}
+
+h2 {
+  color: $secondaryColor;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.error {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $secondaryColor;
+  font-family: var(--font-montserrat);
+}
+
+h1 {
+  margin: 0;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+}
