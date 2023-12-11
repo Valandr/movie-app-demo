@@ -18,9 +18,6 @@ const Header = ({ locale }) => {
         <nav>
           <ul>
             <li>
-              <Link href={`/${locale}/series`}>Séries</Link>
-            </li>
-            <li>
               <Link href={`/${locale}/movies`}>Films</Link>
             </li>
             <li>
