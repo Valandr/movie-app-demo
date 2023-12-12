@@ -1,7 +1,7 @@
 import SearchSidebar from "../../../../components/search-sidebar/SearchSidebar";
 import React from "react";
 import styles from "./layout.module.scss";
-import { GetMovieByPath } from "../../../../utils/movieClient";
+import { GetMovieByPath } from "@/utils/movieClient";
 
 export default async function MovieSearchLayout({
   children,

@@ -1,8 +1,8 @@
-import { GetMovieByPath } from "../../utils/movieClient";
+import { GetMovieByPath } from "@/utils/movieClient";
 import Link from "next/link";
 import React from "react";
 import styles from "./Genres.module.scss";
-import { getDictionary } from "../../utils/dictionaries";
+import { getDictionary } from "@/utils/dictionaries";
 
 export default async function Genres({ locale }) {
   const { genres } = await GetMovieByPath("/genre/movie/list", [], locale);

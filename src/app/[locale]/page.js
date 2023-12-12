@@ -1,6 +1,6 @@
-import Genres from "../../components/genres/Genres";
+import Genres from "@/components/genres/Genres";
 import styles from "./page.module.scss";
-import Popular from "../../components/popular/Popular";
+import Popular from "@/components/popular/Popular";
 
 export const revalidate = 86400;
 

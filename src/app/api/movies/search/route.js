@@ -1,4 +1,4 @@
-import { GetMovieByPath } from "../../../../utils/movieClient";
+import { GetMovieByPath } from "@/utils/movieClient";
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);

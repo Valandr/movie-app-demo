@@ -1,4 +1,4 @@
-import { defaultLocale } from "../utils/i18n";
+import { defaultLocale } from "@/utils/i18n";
 import { useParams } from "next/navigation";
 
 export const useCurrentLanguage = () => {
